@@ -1,0 +1,30 @@
+̥/* Don't change the existing CSS. */
+
+.box {
+  /* padding: 10px; */
+  border-width: 2px;
+}
+
+#outer-box{
+  border: 2px solid blueviolet;
+  border-width: 10px;
+  margin: 20px 20px 0px 20px;
+  width: 100%;
+  background-color:blue;
+  padding: 10px;
+
+
+}
+.box{
+  padding: 5px;
+}
+.white-text{
+  padding: 5px;
+  background-color: red;
+  color: white;
+}
+p {
+  color: yellow;
+  margin: 0;
+  padding: 0;
+}
