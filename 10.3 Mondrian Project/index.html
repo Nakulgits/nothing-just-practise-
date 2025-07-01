@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+    .main-grid{
+      display: grid;
+      grid-template: 414px 295px 21px /320px 360px 50px ;
+      height: 748px;
+      width: 748px;
+      gap: 9px;
+      background-color: #000;
+      /* grid-auto-rows: 20px; */
+    }
+    .second{
+      grid-column-start: 2;
+      grid-column-end: 4;
+    }
+    .all{
+      background-color: #F0F1EC;
+    }
+    .first{
+      background-color: #E72F24;
+    }
+    .seventh{
+      display: grid;
+      background-color: #000;
+      gap: 9px;
+      grid-template-columns: 198px 153px;
+    }
+    .seventh > .one{
+      background-color: #F9D01E;
+    }
+    .seventh > .two{
+      background-color: #232629;
+    }
+    .fifth{
+      display: grid;
+      grid-template-rows: 130px 10px 155px;
+      grid-column-start: 3;
+      grid-row-start: 2;
+      grid-row-end: 4;
+    }
+    .fifth > .one{
+      background-color: #004592;
+    }
+    .fifth > .two{
+      background-color: #000;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main-grid">
+    <div class="all first"></div>
+    <div class="all second"></div>
+    <div class="all third"></div>
+    <div class="all fourth"></div>
+    <div class="all fifth">
+      <div class="one"></div>
+      <div class="two"></div>
+      <div class="three"></div>
+    </div>
+    <div class="all sixth"></div>
+    <div class="all seventh">
+      <div class="one"></div>
+      <div class="two"></div>
+    </div>
+    <div class="all eighth"></div>
+    <div class="all nineth"></div>
+  </div>
+  <!-- Write your HTML here -->
+</body>
+
+</html>
+used the concept of overlapping 
+child selectors
+CSS flowlayout like the one which appears
+should be written end 
+and the grid concepts
